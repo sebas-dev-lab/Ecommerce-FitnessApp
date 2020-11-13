@@ -3,12 +3,47 @@
  <img  width="40%" height="20%" src="https://github.com/sebas-dev-lab/Ecommerce-FitnessApp/blob/main/client/public/GymLogo.gif">
 </p>
 ## Ecommerce
+Este proyecto forma parte del proceso de formación de "SoyHenry" para el programa Full Stack Web Developer, constituyendo una de las prácticas finales de duración de un mes y llevada a cabo junto a un equipo de 5 integrantes bajo metodología SCRUM. 
 
-## Comenzando
+**El equipo estuvo ingrado por los siguientes colaboradores:
+@omarz8
+@quasirsg
+@lucianoo95
+@silverbryan
+@fayser17 // @sebas-dev-lab
 
-Vamos iniciar clonando el repo de Github que se les indicará llamado: `ec-{Cohorte}-{Grupo}`. Donde vamos a invitar a todos colaboradores del proyecto.
+**En el presente proyecto se trabajaron con las siguientes tecnologías y herramientas:
 
-Nosotros te vamos a dar un `boilerplate` con los modelos de Usuario y el flow de autenticación funcionando. Sobre este código vas a branchear para empezar a agregar tus propias features.
+Front: REACT, REDUX, REACT-ROUTER-DOM, REACTSTRAP, FORMIK ,REACT-BOOTSTRAP-ICONS,ETC.
+BacK: NODE JS, EXPRESS, POSTGRESQL, SEQUELIZE, JSONWEBTOKEN, BCRYPT, ETC.
+
+<code><img src="https://img.shields.io/badge/javascript-%23F7DF1E.svg?&style=for-the-badge&logo=javascript&logoColor=black" /> </code>
+<code><img src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/></code>
+<code><img src="https://img.shields.io/badge/redux%20-%23593d88.svg?&style=for-the-badge&logo=redux&logoColor=white"/>  </code>
+<code><img src="https://img.shields.io/badge/react_router%20-CA4245.svg?&style=for-the-badge&logo=react-router&logoColor=white"/>  </code>
+<code><img src="https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white"/> </code>
+<code><img src="https://img.shields.io/badge/express.js%20-%23404d59.svg?&style=for-the-badge"/></code>
+<code><img src="https://img.shields.io/badge/postgres-%23316192.svg?&style=for-the-badge&logo=postgresql&logoColor=white"/> </code>
+<code><img src="https://img.shields.io/badge/css-%23239120.svg?&style=for-the-badge&logo=css3&logoColor=white" /></code>
+<code><img src="https://img.shields.io/badge/bootstrap%20-%23563D7C.svg?&style=for-the-badge&logo=bootstrap&logoColor=white"/></code>
+
+
+## Correr el proyecto
+Pasos:
+
+**Para levantar el proyecto deberás clonar o realizar un fork del mismo. En tu computadora abres la terminal, una para "api" y otra para "clent" y tu editor de texto favorito.
+
+**Luego debes realiar npm install en client y api.
+**En `api` vas a tener que crear un archivo llamado: `.env` que tenga la siguiente forma:
+
+DB_USER=usuariodepostgres
+DB_PASSWORD=passwordDePostgres
+DB_HOST=localhost
+
+Tenés que reemplazar `usuariodepostgres` y `passwordDePostgres` con tus propias credenciales para conectarte a postgres. Este archivo va ser ignorado por github, ya que contiene información sensible (las credenciales).
+
+El contenido de `client` fue creado usando: Create React App.
+
 
 __IMPORTANTE:__ Es necesario contar minimamente con la última versión estable de Node y NPM. Asegurarse de contar con ella para poder instalar correctamente las dependecias necesarias para correr el proyecto.
 
@@ -23,31 +58,14 @@ Para verificar que versión tienen instalada:
 >
 > npm -v
 
-## BoilerPlate
 
-El boilerplate cuenta con dos carpetas: `api` y `client`. En estas carpetas estará el código del back-end y el front-end respectivamente.
+### Feactures del proyecto
 
-En `api` vas a tener que crear un archivo llamado: `.env` que tenga la siguiente forma:
-
-```
-DB_USER=usuariodepostgres
-DB_PASSWORD=passwordDePostgres
-DB_HOST=localhost
-```
-
-Tenés que reemplazar `usuariodepostgres` y `passwordDePostgres` con tus propias credenciales para conectarte a postgres. Este archivo va ser ignorado por github, ya que contiene información sensible (las credenciales).
-
-El contenido de `client` fue creado usando: Create React App.
-
-### Requerimientos
-
-La aplicación del e-commerce va a contar con los siguientes requerimientos:
+La aplicación del e-commerce cuenta con las siguiente feactures:
 
 ### Usuarios no Autenticados
 
-Un Visitante anónimo debería poder navegar tu e-commerce, ver y buscar productos.
-
-###### Como un Guest yo quiero...
+Un Visitante anónimo puede navegar por el e-commerce, ver y buscar productos.
 
 - PRODUCTOS:
     + ...ver la lista completa de productos (catálogo), para ver todo lo disponible para comprar.
@@ -59,7 +77,7 @@ Un Visitante anónimo debería poder navegar tu e-commerce, ver y buscar product
     + ...poder agregar items a mi carrito de compras desde el listado o desde a página de detalles de un producto, para poder comprarlos despues.
     + ...sacar items de mi carrito, en caso que decida no quererlos.
     + ...editar cantidades de los items de mi carrito, en caso que quiera mas o menos cantidad de un item en particular.
-    + ...refrescar la página, o irme y volver, y todavía tener mi carrito de compras (sin haberme creado una cuenta). (Podés usar sessionStorage, localStorage, cookies, o JWT).
+    + ...refrescar la página, o irme y volver, y todavía tener mi carrito de compras (sin haberme creado una cuenta).
     + ...poder crearme una cuenta, loguearme y seguir editando ese mismo carrito, asi no pierdo los items seleccionados.
 - CHECKOUT:
     + ...poder comprar todos los items de un mi carrito.
@@ -72,9 +90,9 @@ Un Visitante anónimo debería poder navegar tu e-commerce, ver y buscar product
 
 ### Usuarios Autenticados
 
-Los usuarios que hayan creado su cuenta, podrán hacer todo lo que puede hacer un usuario guest y además:
+Los usuarios que hayan creado su cuenta, pueden hacer todo lo que hace un usuario guest y además:
 
-###### Como un Usuario Autenticado yo quiero...
+###### Como un Usuario Autenticado
 
 - GESTION DE CUENTA:
     + ...poder desloguearme, asi nadie más pueda usar mi sesión.
@@ -90,7 +108,7 @@ Los usuarios que hayan creado su cuenta, podrán hacer todo lo que puede hacer u
 
 Los usuarios administradores pueden manejar el sitio, los productos que se listan y los items que están disponibles.
 
-###### Como un administrador yo quiero...
+###### Como un administrador
 
 - GESTION DE PRODUCTOS:
     + ...poder crear y editar productos, con nombre, descripción, precio y uno o más fotos, tal que los visitantes puedan ver la última información de lo que se vende.
@@ -109,42 +127,4 @@ Los usuarios administradores pueden manejar el sitio, los productos que se lista
     + ...borrar a un usuario, asi no puedan logearse más.
     + ...forzar una password reset para un usuario.
 
-### Validación de Datos
 
-Cuando crees los modelos, debes considerar los tipos de datos que vas a recibir, qué cosas van a ser requeridas y cómo vas a devolver los errores a los usuarios.
-Algunas constrains qué deberás implementar:
-
-- Productos:
-    + Deben tener `titulo`, `descripcion`, `precio`, `cantidad`
-    + Deben pertenecer a por lo menos una categoría.
-    + Deben tener una foto, si no tienen una foto, deben tener un placeholder de foto por defecto.
-- Usuarios:
-    + Deben tener una dirección de mail válida.
-    + Su email debe ser único.
-- Ordenes:
-    + Una orden debe pertenecer a un usuario o a un guest (autenticado vs no autenticado).
-    + Las ordenes deben tener línea de orden que contiene el `precio`, `productId`, y `cantidad`.
-    + Si un usuario completa una orden, esa orden debe mantener el precio del item al momento de la compra, sin importar que el precio del producto cambie después.
-- Reviews:
-    + Todas las reviews deben pertenecer a un producto.
-    + Todas las reviews deben pertenecer a un usuario.
-    + Todas las reviews deben tener por lo menos x caractéres.
-
-### Milestones
-
-Este proyecto tiene muchas tareas para realizar, asi que es fácil sentirse abrumado. Estas son las features que esperamos que muestres en cada demo:
-
-- Demo **1**: Catálogo de productos
-    + Los usuarios pueden ver los productos y filtrar por categoría.
-    + Los administradores pueden editar y agregar productos
-- Demo **2**:
-    + Los usuarios pueden buscar productos en el catálogo.
-    + El catálogo está paginado.
-    + Los usuarios tienen un carrito al que pueden agregar productos.
-- Demo **3**:
-    + Los usuarios pueden ver su historial de compras.
-    + Los usuarios tienen su carrito en cualquier device al que se logueen.
-- Demo **Final**:
-    + Los usuarios pueden hacer el checkout.
-    + Los admins pueden ver las ordenes pendientes.
-    + Los usuarios reciben mails de notificaciones.
