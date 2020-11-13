@@ -7,19 +7,19 @@
 
 Este proyecto forma parte del proceso de formación de "SoyHenry" para el programa Full Stack Web Developer, constituyendo una de las prácticas finales de duración de un mes y llevada a cabo junto a un equipo de 5 integrantes bajo metodología SCRUM. 
 
-**El equipo estuvo ingrado por los siguientes colaboradores:
+**El equipo estuvo ingrado por los siguientes colaboradores:**
 
-omarz8(https://github.com/omarz8)
+[omarz8](https://github.com/omarz8)
 
-quasirsg(https://github.com/quasirsg)
+[quasirsg](https://github.com/quasirsg)
 
-lucianoo95(https://github.com/lucianoo95)
+[lucianoo95](https://github.com/lucianoo95)
 
-silverbryan(https://github.com/silverbryan)
+[silverbryan](https://github.com/silverbryan)
 
-fayser17(https://github.com/fayser17) // @sebas-dev-lab(https://github.com/sebas-dev-lab)
+[fayser17](https://github.com/fayser17) // [sebas-dev-lab](https://github.com/sebas-dev-lab)
 
-**En el presente proyecto se trabajaron con las siguientes tecnologías y herramientas:
+**En el presente proyecto se trabajaron con las siguientes tecnologías y herramientas:**
 
 Front: REACT, REDUX, REACT-ROUTER-DOM, REACTSTRAP, FORMIK ,REACT-BOOTSTRAP-ICONS,ETC.
 
@@ -39,13 +39,13 @@ BacK: NODE JS, EXPRESS, POSTGRESQL, SEQUELIZE, JSONWEBTOKEN, BCRYPT, ETC.
 ## Correr el proyecto
 Pasos:
 
-**Para levantar el proyecto deberás clonar o realizar un fork del mismo. 
+**Para levantar el proyecto deberás clonar o realizar un fork del mismo.** 
 
-**En tu computadora abres la terminal, una para "api" y otra para "clent" y tu editor de texto favorito.
+**En tu computadora abres la terminal, una para "api" y otra para "clent" y tu editor de texto favorito.**
 
-**Luego debes realiar npm install en client y api.
+**Luego debes realiar npm install en client y api.**
 
-**En `api` vas a tener que crear un archivo llamado: `.env` que tenga la siguiente forma:
+**En `api` vas a tener que crear un archivo llamado: `.env` que tenga la siguiente forma:**
 
 DB_USER=usuariodepostgres
 DB_PASSWORD=passwordDePostgres
