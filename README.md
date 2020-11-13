@@ -41,7 +41,7 @@ Pasos:
 
 **1. Para levantar el proyecto deberás clonar o realizar un fork del mismo.** 
 
-**2. En tu computadora abres la terminal, una para "api" y otra para "clent" y tu editor de texto favorito.**
+**2. En tu computadora abres la terminal, una para "api" y otra para "client" y tu editor de texto favorito.**
 
 **3. Luego debes realiar npm install en client y api.**
 
