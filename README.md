@@ -2,21 +2,22 @@
 <p align="center">
  <img  width="40%" height="20%" src="https://github.com/sebas-dev-lab/Ecommerce-FitnessApp/blob/main/client/public/GymLogo.gif">
 </p>
+
 ## Ecommerce
 
 Este proyecto forma parte del proceso de formación de "SoyHenry" para el programa Full Stack Web Developer, constituyendo una de las prácticas finales de duración de un mes y llevada a cabo junto a un equipo de 5 integrantes bajo metodología SCRUM. 
 
 **El equipo estuvo ingrado por los siguientes colaboradores:
 
-@omarz8
+@omarz8(https://github.com/omarz8)
 
-@quasirsg
+@quasirsg(https://github.com/quasirsg)
 
-@lucianoo95
+@lucianoo95(https://github.com/lucianoo95)
 
-@silverbryan
+@silverbryan(https://github.com/silverbryan)
 
-@fayser17 // @sebas-dev-lab
+@fayser17(https://github.com/fayser17) // @sebas-dev-lab(https://github.com/sebas-dev-lab)
 
 **En el presente proyecto se trabajaron con las siguientes tecnologías y herramientas:
 
