@@ -39,13 +39,13 @@ BacK: NODE JS, EXPRESS, POSTGRESQL, SEQUELIZE, JSONWEBTOKEN, BCRYPT, ETC.
 ## Correr el proyecto
 Pasos:
 
-**Para levantar el proyecto deberás clonar o realizar un fork del mismo.** 
+**1. Para levantar el proyecto deberás clonar o realizar un fork del mismo.** 
 
-**En tu computadora abres la terminal, una para "api" y otra para "clent" y tu editor de texto favorito.**
+**2. En tu computadora abres la terminal, una para "api" y otra para "clent" y tu editor de texto favorito.**
 
-**Luego debes realiar npm install en client y api.**
+**3. Luego debes realiar npm install en client y api.**
 
-**En `api` vas a tener que crear un archivo llamado: `.env` que tenga la siguiente forma:**
+**4. En `api` vas a tener que crear un archivo llamado: `.env` que tenga la siguiente forma:**
 
 DB_USER=usuariodepostgres
 DB_PASSWORD=passwordDePostgres
