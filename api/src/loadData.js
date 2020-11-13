@@ -88,22 +88,22 @@ const loadProducts = () => {
       image:
         "https://http2.mlstatic.com/D_NQ_NP_871368-MLA31115313342_062019-F.jpg",
     },
-    {
-      name: "Mancuerna Recargable ",
-      stock: 50,
-      description: "Mancuerna Pes Recargable X 2 Hasta 2 Kg Plastico Fitness",
-      price: 2000.0,
-      image:
-        "https://http2.mlstatic.com/D_NQ_NP_853813-MLA42543135842_072020-F.jpg",
-    },
-    {
-      name: "Mancuerna Recargable 2 Kg",
-      stock: 10,
-      description: "Mancuerna Recargable Hasta 2 Kg. Gym, Fitness, Pesas.",
-      price: 720.0,
-      image:
-        "https://http2.mlstatic.com/D_NQ_NP_882930-MLA43238429277_082020-F.jpg",
-    }, //Si queres crear otro producto hacelo aca y crea un objecto y asociale una categoria
+    // {
+    //   name: "Mancuerna Recargable ",
+    //   stock: 50,
+    //   description: "Mancuerna Pes Recargable X 2 Hasta 2 Kg Plastico Fitness",
+    //   price: 2000.0,
+    //   image:
+    //     "https://http2.mlstatic.com/D_NQ_NP_853813-MLA42543135842_072020-F.jpg",
+    // },
+    // {
+    //   name: "Mancuerna Recargable 2 Kg",
+    //   stock: 10,
+    //   description: "Mancuerna Recargable Hasta 2 Kg. Gym, Fitness, Pesas.",
+    //   price: 720.0,
+    //   image:
+    //     "https://http2.mlstatic.com/D_NQ_NP_882930-MLA43238429277_082020-F.jpg",
+    // }, //Si queres crear otro producto hacelo aca y crea un objecto y asociale una categoria
   ]);
 };
 
