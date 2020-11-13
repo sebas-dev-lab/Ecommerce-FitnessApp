@@ -70,7 +70,8 @@ Para verificar que versión tienen instalada:
 > npm -v
 
 
-### Feactures del proyecto
+
+## Feactures del proyecto
 
 La aplicación del e-commerce cuenta con las siguiente feactures:
 
