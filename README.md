@@ -9,15 +9,15 @@ Este proyecto forma parte del proceso de formación de "SoyHenry" para el progra
 
 **El equipo estuvo ingrado por los siguientes colaboradores:
 
-@omarz8(https://github.com/omarz8)
+__omarz8(https://github.com/omarz8)
 
-@quasirsg(https://github.com/quasirsg)
+__quasirsg(https://github.com/quasirsg)
 
-@lucianoo95(https://github.com/lucianoo95)
+__lucianoo95(https://github.com/lucianoo95)
 
-@silverbryan(https://github.com/silverbryan)
+__silverbryan(https://github.com/silverbryan)
 
-@fayser17(https://github.com/fayser17) // @sebas-dev-lab(https://github.com/sebas-dev-lab)
+__fayser17(https://github.com/fayser17) // @sebas-dev-lab(https://github.com/sebas-dev-lab)
 
 **En el presente proyecto se trabajaron con las siguientes tecnologías y herramientas:
 
