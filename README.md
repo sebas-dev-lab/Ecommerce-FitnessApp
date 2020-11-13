@@ -1,6 +1,6 @@
 <p align='left'>
 <p align="center">
- <img  width="100%" height="400" src="https://github.com/sebas-dev-lab/Ecommerce-FitnessApp/blob/main/client/public/GymLogo.gif">
+ <img  width="70%" height="40%" src="https://github.com/sebas-dev-lab/Ecommerce-FitnessApp/blob/main/client/public/GymLogo.gif">
 </p>
 ## Ecommerce
 
